@@ -1,0 +1,20 @@
+Q1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A1. It shortened the amount of code that you had to search through to find the error.
+
+Q2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A2. Having an entire history of a file allows you to go back to previous versions.  If you have a bug in your file, you can compare different versions of the file to find the bug. Or if you decide that the previous version was more preferable, you do not have to undo the changes that you made.  Or if you have multiple people working on the same file, you can tell which changes were made and how the program has been changed/updated.
+
+Q3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google does?
+A3. When manually choosing to create a commit, you can do it at significant and sensible intervals in your coding process, however, there is always room for user error, in forgetting to commit when you should have.  While Google and other programs will take away user error, it may also create commits that don't run, aren't practical, or leave you with unnecessary versions of your program.
+
+Q4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A4. Version control systems, like Git, allow saving multiple files in one commit because changes in multiple files may be intertwined and changes need to be made across more than one file in order for code to operate properly.  I do not know why other version control systems treat each file separately.
+
+Q5. How can you use the commands git log and git diff to view the history of files?
+A5. Using git log allows you to see the history of the file that you have been working on by allowing you to view the commits made starting with the most recent, back to the beginning.  Using git diff allows you to view which changes were made to the file between two different commits.
+
+Q6. How might using version control make you more confident to make changes that could break something?
+A6. Using version control allows you to go back to previous versions and compare them to find at which point the bug was introduced and allow you to target and fix problem with the code more efficiently.
+
+Q7. Now that you have your workspace set up, what do you want to try using Git for?
+A8. To open Sublime, to track changes in my programs, to help find errors in my programs.
