@@ -1,0 +1,2 @@
+Q1. How is the staging area different from the working directory and the repository?  What value do you think it offers?
+A2.  The staging area is different from the working directory and the repository because the changes have not yet been commited.  I suppose that the value that it holds would be in that you can use it without the changes yet being commited.
