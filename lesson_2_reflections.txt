@@ -1,2 +1,17 @@
 Q1. How is the staging area different from the working directory and the repository?  What value do you think it offers?
 A2.  The staging area is different from the working directory and the repository because the changes have not yet been commited.  I suppose that the value that it holds would be in that you can use it without the changes yet being commited.
+
+Q2. How can you use the staging area to make sure you have one commit per logical change?
+A3. You can add files to the staging area one at a time before commiting them, and you can check the staging area to make sure that the files in it are the ones that you want commited at this time.
+
+Q3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A3. Branches are helpful when you have different versions of your program or if you want to experiment with your program without affecting your master branch.  
+
+Q4. How do the diagrams help you visualize the branch structure?
+A4. Diagrams help to visualize the branch structure by giving a marked-out depiction of the branch structure that can be referenced with a quick glance.
+
+Q5. What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+A5. Merging two branches allows changes made since they branched away to be combined and saved together.  It is shown in the diagram the way that it is so that you can see which past commits were joined.
+
+Q6. What are the pros and cons of Git's automatic merging versus always doing merges manually?
+A6. Git's automatic merging allows changes to branches to be merged quickly and easily, however some changes may not necessarily be what you wanted or there may be conflicts.  Always doing merges manually allows for control over what changes are made but can become time consuming.
